@@ -1,0 +1,12 @@
+{
+  "featured_projects": [
+    { "id": 1, "title": "Expense Tracker", "description": "A full-stack application for tracking and managing daily expenses using React, Spring Boot, and MongoDB.", "date": "July 2026", "tools_tech": ["Java", "Spring Boot", "React", "MongoDB", "Chart.js", "Axios"], "features": ["Add, edit, and delete expenses", "Organize expenses by category and currency", "Weekly, monthly, and yearly dashboard statistics", "Export reports to Excel and PDF"], "github": "https://github.com/bharadwajnithin/Expense_tracker_java", "live": "" },
+    { "id": 2, "title": "OMITAKS", "description": "An AI-enabled task management application for organizing tasks, tracking productivity, and extracting tasks from natural language.", "date": "July 2026", "tools_tech": ["Java", "Spring Boot", "React", "MongoDB", "JWT", "Google OAuth"], "features": ["Create, update, delete, and filter tasks", "Track task status and priority", "AI task extraction from text and Gmail", "Analytics dashboard with productivity insights"], "github": "https://github.com/bharadwajnithin/TASK-_AI", "live": "https://task-ai-ecru.vercel.app/login" },
+    { "id": 3, "title": "Geo-Location + Face Recognition Attendance System", "description": "A smart Django attendance system that verifies location and face recognition before recording attendance.", "date": "June 2026", "tools_tech": ["Python", "Django", "MongoDB", "OpenCV", "Google Maps API", "HTML/CSS"], "features": ["Geo-fencing for authorized attendance locations", "Face recognition for identity verification", "Admin, staff, and student role-based access", "Attendance and class management"], "github": "https://github.com/bharadwajnithin/GEO-LOCATION_ATTENDANCE_SYSTEM", "live": "" }
+  ],
+  "collaborative_projects": [],
+  "other_projects": [],
+  "community_projects": [],
+  "open_source_contributions": [],
+  "community_discussions": []
+}

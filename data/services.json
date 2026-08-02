@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "Full-Stack Development", "list": ["React interfaces", "Spring Boot REST APIs", "MongoDB integration", "Responsive web applications"] },
+  { "id": 2, "title": "Backend Development", "list": ["Java applications", "Spring Boot", "REST API development", "MySQL and MongoDB"] },
+  { "id": 3, "title": "Python & Django", "list": ["Django web applications", "OpenCV integration", "Image processing", "Role-based modules"] },
+  { "id": 4, "title": "Development Tools", "list": ["Git and GitHub", "Linux", "Postman", "VS Code and IntelliJ IDEA"] }
+]

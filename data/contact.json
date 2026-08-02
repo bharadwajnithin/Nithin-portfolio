@@ -1,0 +1,8 @@
+{
+  "contact_options": [
+    { "id": 1, "icon": "BsLinkedin", "title": "LinkedIn", "value": "nithin-ks2005", "link": "https://www.linkedin.com/in/nithin-ks2005/", "message": "Connect" },
+    { "id": 2, "icon": "FaGithub", "title": "GitHub", "value": "bharadwajnithin", "link": "https://github.com/bharadwajnithin/", "message": "Follow" },
+    { "id": 3, "icon": "BsLinkedin", "title": "Email", "value": "bharadwajnithin666@gmail.com", "link": "mailto:bharadwajnithin666@gmail.com", "message": "Send a Mail" }
+  ],
+  "email_config": { "service_id": "", "template_id": "", "public_key": "", "validation_pattern": "^[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,}$" }
+}

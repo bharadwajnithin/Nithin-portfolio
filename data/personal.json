@@ -1,0 +1,21 @@
+{
+  "name": "Nithin K S",
+  "title": "Software Developer",
+  "location": "Mysore, Karnataka, India",
+  "contact": { "email": "bharadwajnithin666@gmail.com", "phone": "+91 7975048013", "linkedin": "nithin-ks2005", "github": "bharadwajnithin" },
+  "roles": ["Software Developer", "Java Developer", "Full-Stack Developer", "Problem Solver"],
+  "about": {
+    "greeting": "Hi, my name is Nithin K S.",
+    "current_role": "Computer Science Engineering student and software developer focused on building practical, user-friendly applications.",
+    "specialization": "Experienced with Java, Spring Boot, React, MongoDB, and REST API integration for full-stack web applications.",
+    "education": "Pursuing a B.E. in Computer Science & Engineering at ATME College of Engineering, Mysore (2023-2026).",
+    "competitive_programming": "Hands-on with Git, GitHub, Linux, data structures, OOP, operating systems, and DBMS."
+  },
+  "statistics": { "projects": "3", "languages": "5", "frameworks": "2", "databases": "2" },
+  "languages": [{ "name": "English", "level": "Professional Working" }, { "name": "Kannada", "level": "Native" }, { "name": "Hindi", "level": "Professional Working" }],
+  "social_profiles": [
+    { "id": 1, "name": "LinkedIn", "link": "https://www.linkedin.com/in/nithin-ks2005/", "icon": "BsLinkedin" },
+    { "id": 2, "name": "GitHub", "link": "https://github.com/bharadwajnithin/", "icon": "FaGithub" }
+  ],
+  "site": { "counter_namespace": "nithin-ks-portfolio", "tech_stack": ["React", "Vite", "TypeScript", "Tailwind CSS"] }
+}

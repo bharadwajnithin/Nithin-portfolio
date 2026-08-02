@@ -1,0 +1,10 @@
+{
+  "certifications": [
+    { "id": 1, "name": "Git and GitHub Basics", "type": "Training", "issuer": "Self Learning", "issueDate": "", "badgeId": "git-github-basics", "badgeUrl": "#", "level": "Foundational", "imageUrl": "/certificate.svg" },
+    { "id": 2, "name": "Python Programming", "type": "Training", "issuer": "Online Course", "issueDate": "", "badgeId": "python-programming", "badgeUrl": "#", "level": "Foundational", "imageUrl": "/certificate.svg" },
+    { "id": 3, "name": "Linux Fundamentals", "type": "Training", "issuer": "Self Learning", "issueDate": "", "badgeId": "linux-fundamentals", "badgeUrl": "#", "level": "Foundational", "imageUrl": "/certificate.svg" }
+  ],
+  "learning_badges": [],
+  "achievements": [],
+  "coding_platform_stats": {}
+}

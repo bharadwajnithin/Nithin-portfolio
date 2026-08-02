@@ -1,0 +1,11 @@
+{
+  "languages": ["Java", "Python", "JavaScript", "HTML", "CSS"],
+  "frontend": ["React", "HTML5", "CSS3", "JavaScript"],
+  "backend": ["Spring Boot", "Django", "REST APIs", "MongoDB", "MySQL"],
+  "cloud_devops": ["Git", "GitHub", "Linux"],
+  "ai_ml": ["OpenCV", "Image Processing"],
+  "tools_platforms": ["VS Code", "IntelliJ IDEA", "Postman", "Git", "GitHub", "Linux"],
+  "cs_fundamentals": ["Data Structures", "Object-Oriented Programming", "Operating Systems", "Database Management Systems"],
+  "soft_skills": ["Communication", "Problem Solving", "Time Management", "Teamwork", "Adaptability"],
+  "areas_of_interest": ["Full-Stack Development", "Backend Development", "Web Development"]
+}

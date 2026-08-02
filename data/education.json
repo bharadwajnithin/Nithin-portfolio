@@ -1,0 +1,4 @@
+[
+  { "id": 1, "date": "2023 - 2026", "title": "B.E. in Computer Science & Engineering", "institution": "ATME College of Engineering", "institutionType": "Engineering College", "department": "Computer Science & Engineering", "location": "Mysore, Karnataka, India", "cgpa": "7.1", "percentage": "", "display_text": "ATME College of Engineering, Mysore", "achievements": [], "skills": ["Java", "Data Structures", "OOP", "DBMS"] },
+  { "id": 2, "date": "2020 - 2023", "title": "Diploma in Computer Science & Engineering", "institution": "JSS Polytechnic", "institutionType": "Polytechnic College", "department": "Computer Science & Engineering", "location": "Mysore, Karnataka, India", "cgpa": "8.15", "percentage": "", "display_text": "JSS Polytechnic, Mysore", "skills": ["Programming", "Database Management", "Web Development"] }
+]
