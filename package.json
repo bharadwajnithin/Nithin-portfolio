@@ -14,8 +14,8 @@
       "test": "vitest run",
       "type-check": "tsc --noEmit",
       "predeploy": "pnpm run build",
-      "deploy": "gh-pages -d build",
-      "clean": "rimraf build node_modules/.vite",
+      "deploy": "gh-pages -d dist",
+      "clean": "rimraf build dist node_modules/.vite",
       "fetch:resume": "node scripts/prepare-resume.js"
    },
    "dependencies": {
