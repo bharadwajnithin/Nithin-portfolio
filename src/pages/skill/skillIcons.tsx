@@ -47,9 +47,14 @@ import {
    SiUnity,
    SiVercel,
    SiGooglechrome,
+   SiSpringboot,
+   SiDjango,
+   SiGithub,
+   SiIntellijidea,
 } from "react-icons/si";
-import { FaJava, FaAws } from "react-icons/fa";
-import { TbBrandCSharp, TbBrandVscode, TbApi } from "react-icons/tb";
+import { FaJava, FaAws, FaCss3 } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
+import { TbBrandCSharp, TbApi } from "react-icons/tb";
 import {
    Database,
    Workflow,
@@ -104,6 +109,10 @@ const SKILL_ICONS: Record<string, SkillIcon> = {
    TypeScript: { Icon: SiTypescript, color: "#3178C6" },
    "C++": { Icon: SiCplusplus, color: "#649AD2" },
    Java: { Icon: FaJava, color: "#ED8B00" },
+   HTML: { Icon: SiHtml5, color: "#E34F26" },
+   CSS: { Icon: FaCss3, color: "#1572B6" },
+   HTML5: { Icon: SiHtml5, color: "#E34F26" },
+   CSS3: { Icon: FaCss3, color: "#1572B6" },
    SQL: { Icon: Database, color: BLUE },
    HCL: { Icon: SiTerraform, color: "#844FBA" },
    Bash: { Icon: SiGnubash, color: "#4EAA25" },
@@ -114,6 +123,8 @@ const SKILL_ICONS: Record<string, SkillIcon> = {
 
    // Frontend
    React: { Icon: SiReact, color: "#61DAFB" },
+   "Spring Boot": { Icon: SiSpringboot, color: "#6DB33F" },
+   Django: { Icon: SiDjango, color: "#44B78B" },
    "Next.js": { Icon: SiNextdotjs, color: "#FFFFFF" },
    Astro: { Icon: SiAstro, color: "#FF5D01" },
    Vite: { Icon: SiVite, color: "#646CFF" },
@@ -159,6 +170,7 @@ const SKILL_ICONS: Record<string, SkillIcon> = {
    "Pandas / NumPy": { Icon: SiPandas, color: "#9A8FDB" },
    "LSTM / Neural Networks": { Icon: Brain, color: BLUE },
    "OpenCV / Image Processing": { Icon: SiOpencv, color: "#5C3EE8" },
+   "Image Processing": { Icon: SiOpencv, color: "#5C3EE8" },
    "Deep Learning": { Icon: Network, color: BLUE },
    MLOps: { Icon: Workflow, color: BLUE },
    "LLM APIs": { Icon: Sparkles, color: BLUE },
@@ -172,7 +184,9 @@ const SKILL_ICONS: Record<string, SkillIcon> = {
    "Cursor AI": { Icon: MousePointer2, color: BLUE },
    "GitHub Copilot": { Icon: SiGithubcopilot, color: "#FFFFFF" },
    Git: { Icon: SiGit, color: "#F05032" },
-   "VS Code": { Icon: TbBrandVscode, color: "#3EA8E5" },
+   GitHub: { Icon: SiGithub, color: "#F4F6F7" },
+   "VS Code": { Icon: VscVscode, color: "#3EA8E5" },
+   "IntelliJ IDEA": { Icon: SiIntellijidea, color: "#FE2857" },
    "Jupyter Notebook": { Icon: SiJupyter, color: "#F37626" },
    Postman: { Icon: SiPostman, color: "#FF6C37" },
    Figma: { Icon: SiFigma, color: "#F24E1E" },

@@ -87,7 +87,7 @@ const About = () => {
 
                   {/* Greeting */}
                   <CharacterReveal
-                     text={aboutInfo.greeting.replace(/^[^\s]+\s/, "")}
+                     text={aboutInfo.greeting}
                      as="h3"
                      style={{
                         fontSize: isMobile ? 22 : 28,

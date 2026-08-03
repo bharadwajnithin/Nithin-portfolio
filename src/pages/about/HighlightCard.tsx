@@ -19,8 +19,6 @@ interface HighlightCardProps {
 
 const HighlightCard = ({ text, index, isMobile }: HighlightCardProps) => {
    const { Icon, color } = HIGHLIGHT_ICONS[index];
-   const cleanText = text.replace(/^[^\s]+\s/, "");
-
    return (
       <motion.div
          variants={staggerItem}
@@ -58,7 +56,7 @@ const HighlightCard = ({ text, index, isMobile }: HighlightCardProps) => {
                margin: 0,
             }}
          >
-            {cleanText}
+            {text}
          </p>
       </motion.div>
    );
