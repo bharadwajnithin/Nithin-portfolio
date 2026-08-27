@@ -11,10 +11,10 @@ const subscribe = (callback: () => void): (() => void) => {
    return () => mql.removeEventListener("change", callback);
 };
 
-const getSnapshot = (): boolean => {
-   if (globalThis.window == null) return false;
-   return globalThis.matchMedia(query).matches;
-};
+const mql =
+   globalThis.window != null ? globalThis.matchMedia(query) : null;
+
+const getSnapshot = (): boolean => mql?.matches ?? false;
 
 const useReducedMotion = (): boolean => {
    return useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);

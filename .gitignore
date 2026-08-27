@@ -25,3 +25,9 @@ Desktop.ini
 .vscode/
 .idea/
 *.log
+
+# SSH keys -- NEVER commit private keys
+*.pem
+*.key
+id_*
+Start-Service*

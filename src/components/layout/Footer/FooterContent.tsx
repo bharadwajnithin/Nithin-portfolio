@@ -100,6 +100,7 @@ const FooterContent = () => {
                      key={link.id}
                      onClick={() => scrollTo(link.id)}
                      style={columnLink}
+                     aria-label={`Navigate to ${link.label}`}
                      onMouseEnter={(e: React.MouseEvent<HTMLButtonElement>) => {
                         e.currentTarget.style.color = TEXT_PRIMARY;
                      }}

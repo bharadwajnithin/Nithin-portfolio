@@ -1,4 +1,4 @@
-import { useRef, useState, useCallback } from "react";
+import { useRef, useState, useCallback, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { getEmail, getEmailConfig } from "@data/dataLoader";
 import type { FormData, Status } from "./contactConstants";
@@ -97,8 +97,15 @@ const useContactForm = () => {
             setIsLoading(false);
          }
       },
-      [emailConfig, formData.email, formData.name, showError],
+      [emailConfig, formData.email, formData.name, formData.message, showError],
    );
+
+   // Clean up any pending status-clear timer on unmount.
+   useEffect(() => {
+      return () => {
+         if (clearTimerRef.current) clearTimeout(clearTimerRef.current);
+      };
+   }, []);
 
    const dismissToast = useCallback(() => {
       setToastVisible(false);
