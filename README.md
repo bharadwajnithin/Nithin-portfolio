@@ -1,5 +1,5 @@
 # Nithin K S Portfolio
-# its is a Persnoal Portfolio
+# its is a personal  Portfolio
 
 ## Commands
 
