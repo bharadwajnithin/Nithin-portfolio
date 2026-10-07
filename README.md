@@ -1,6 +1,5 @@
 # Nithin K S Portfolio
-
-React and Vite portfolio for Nithin K S, Software Developer.
+# its is a Persnoal Portfolio
 
 ## Commands
 
